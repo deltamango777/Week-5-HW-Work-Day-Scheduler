@@ -1,99 +1,35 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
 
-## Your Task
+## Description
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+This is a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+- What was your motivation?
+To be able to give users a clean and concise way to organize their day with as little effort as possible. 
+- Why did you build this project? (Note: the answer is not \"Because it was a homework assignment.")
+I built this project to further hone my strengths in these coding languages, as well as to continue my exploration of figuring out how to use said languages as novel solutions to simple problems.
+- What problem does it solve?
+It solves the problem of not having a quick and easy way to organize your time. 
+- What did you learn?
+I learned how to utilize the day.js library and its utility as time-based component of a project like this. 
 
-## User Story
+## Installation
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+To get the development enviroment running, you must make sure you have js and day.js within it. As long as that's sorted, then  all you need to do is right click open the index so it shows in the browser. 
 
-## Acceptance Criteria
+## Usage
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+You open the app and are greeted with entry blocks for hours 9am-5pm. You can log what you want to do - or have already done - within these boxes. This will save to local storage and be accessible to you anytime you open the app to check again. The white blocks represent time that's behind you, red is your current hour, and green is the time ahead of you. 
 
-The following animation demonstrates the application functionality:
+## Credits
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+n/a
 
-## Grading Requirements
+Day.js for Javascript
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+n/a
 
-This Challenge is graded based on the following criteria:
+## License
 
-### Technical Acceptance Criteria: 40%
+n/a
 
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
